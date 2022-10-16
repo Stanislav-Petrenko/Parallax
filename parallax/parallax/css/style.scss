@@ -1,0 +1,18 @@
+// Файл Обнуляющих стилей 
+@import "nullstyle.scss";
+
+
+.block {
+    padding: 30px;
+    font-size: 18px;
+    line-height: 24px;
+
+    >p {
+        color: red;
+    }
+
+    span {
+        color: green;
+        font-size: 50px;
+    }
+}
